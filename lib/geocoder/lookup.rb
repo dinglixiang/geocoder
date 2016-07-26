@@ -41,6 +41,7 @@ module Geocoder
         :pelias,
         :here,
         :baidu,
+        :amap,
         :geocodio,
         :smarty_streets,
         :okf,

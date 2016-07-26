@@ -80,7 +80,7 @@ module Geocoder
       # The working Cache object.
       #
       def cache
-        if @cache.nil? and store = configuration.cache
+        if @cache.nil? and store = configuration[:cache]
           @cache = Cache.new(store, configuration.cache_prefix)
         end
         @cache
